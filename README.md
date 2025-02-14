@@ -21,8 +21,8 @@ A powerful Chrome extension that helps you save and organize text snippets, link
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/mohsinkhann12/easy-paste.git
-cd easy-save
+git clone https://github.com/mohsinkhann12/easy-paste
+cd easy-paste
 ```
 
 2. Install dependencies:
@@ -66,15 +66,32 @@ npm run build
 ## Project Structure
 
 ```
-easy-save/
-├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/         # Main pages of the extension
-│   ├── context/       # React context providers
-│   ├── utils/         # Utility functions
-│   └── styles/        # Global styles and Tailwind configuration
-├── public/            # Static assets and manifest
-└── dist/             # Built extension files
+Directory structure:
+└── mohsinkhann12-easy-paste/
+    ├── README.md
+    ├── index.html
+    ├── package.json
+    ├── postcss.config.js
+    ├── tailwind.config.js
+    ├── vite.config.js
+    ├── public/
+    │   ├── background.js
+    │   └── manifest.json
+    └── src/
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+        ├── regex.txt
+        ├── components/
+        │   ├── AddClipForm.jsx
+        │   ├── Clip.jsx
+        │   └── Header.jsx
+        ├── pages/
+        │   ├── ManagePage.jsx
+        │   └── Popup.jsx
+        └── utils/
+            └── storage.js
+           # Built extension files
 ```
 
 ## Contributing
