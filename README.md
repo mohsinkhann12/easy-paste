@@ -2,6 +2,8 @@
 
 A powerful Chrome extension that helps you save and organize text snippets, links, and code blocks efficiently.
 
+
+
 ## Features
 
 - Save texts selected from webpage, emails, websites, etc
@@ -40,12 +42,21 @@ npm run build
    - Enable "Developer mode" in the top right
    - Click "Load unpacked" and select the `dist` folder
 
+## Or Use latest Release
+1. Download [Easy-Paste-V1](https://github.com/mohsinkhann12/easy-paste/releases/download/easy-paste-v1/easy-paste.zip)
+
+2. Unzip the file
+
+3. Load the extension in Chrome:
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable "Developer mode" in the top right
+   - Click "Load unpacked" and select the `dist` folder
+
 ## Technologies Used
 
 ### Core Libraries
 
 - **React** - UI library for building the interface
-- **React Router** - For handling navigation within the extension
 - **React Beautiful DnD** - Drag and drop functionality for reordering items
 - **Tailwind CSS** - Utility-first CSS framework for styling
 
@@ -101,6 +112,9 @@ Directory structure:
 3. Commit your changes
 4. Push to the branch
 5. Open a Pull Request
+
+Feel free to contribute..
+
 
 ## License
 
